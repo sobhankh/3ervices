@@ -1,0 +1,429 @@
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir.eot");
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir.woff2") format("woff2"),
+    url("../fonts/Vazir.woff") format("woff"),
+    url("../fonts/Vazir.ttf") format("truetype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir-Bold.eot");
+  src: url("../fonts/Vazir-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Bold.woff2") format("woff2"),
+    url("../fonts/Vazir-Bold.woff") format("woff"),
+    url("../fonts/Vazir-Bold.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir-Light.eot");
+  src: url("../fonts/Vazir-Light.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Light.woff2") format("woff2"),
+    url("../fonts/Vazir-Light.woff") format("woff"),
+    url("../fonts/Vazir-Light.ttf") format("truetype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir-Medium.eot");
+  src: url("../fonts/Vazir-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Medium.woff2") format("woff2"),
+    url("../fonts/Vazir-Medium.woff") format("woff"),
+    url("../fonts/Vazir-Medium.ttf") format("truetype");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir-Thin.eot");
+  src: url("../fonts/Vazir-Thin.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Thin.woff2") format("woff2"),
+    url("../fonts/Vazir-Thin.woff") format("woff"),
+    url("../fonts/Vazir-Thin.ttf") format("truetype");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: Vazir;
+  src: url("../fonts/Vazir-Black.eot");
+  src: url("../fonts/Vazir-Black.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Vazir-Black.woff2") format("woff2"),
+    url("../fonts/Vazir-Black.woff") format("woff"),
+    url("../fonts/Vazir-Black.ttf") format("truetype");
+  font-weight: 900;
+}
+
+/*---------------------------------- End of fonts ---------------------------------- */
+* {
+  direction: rtl;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Vazir", sans-serif !important;
+}
+
+.baner-header {
+  background-image: url("../img/banner 1.png");
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+.baner-header h1 {
+  padding-top: 114px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 40px;
+}
+
+.cover-title {
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 500px;
+}
+.baner-header h2 {
+  padding-left: -19px;
+}
+
+.brands {
+  border: 1px solid rgb(36, 35, 35);
+  box-shadow: 0px 0px 10px 0 rgb(76, 74, 74);
+  padding: 10px;
+}
+
+.brands img {
+  width: 100%;
+  height: 200px;
+}
+
+.content-imag-adv {
+  margin-top: 180px;
+}
+
+.content-imag-adv h3 {
+  margin-bottom: 50px;
+  opacity: 1;
+}
+
+.content-imag-adv p {
+  text-align: justify;
+}
+
+.btn-more {
+  float: left;
+}
+
+@media screen and (max-width: 700px) {
+  .content-imag-adv {
+    margin-top: 80px;
+  }
+}
+
+.bge {
+  background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+}
+.bge2 {
+  background-image: linear-gradient(to top, #9795f0 0%, #fbc8d4 100%);
+}
+
+.img {
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.img img {
+  height: 180px;
+  object-fit: cover;
+}
+
+.img img:hover {
+  transition: all 0.5s ease-in-out;
+  transform: scale(1.07);
+}
+
+.parent {
+  padding: 10px;
+  background-color: #fff;
+  margin-top: 10px;
+  border-radius: 15px;
+}
+
+.caption-item {
+  /* height: 200px; */
+  border-radius: 15px;
+  background-color: #fff;
+  margin-top: -23px;
+  position: relative;
+}
+
+.title {
+  padding: 20px;
+}
+
+.title a {
+  color: #333;
+  text-decoration: none;
+  opacity: 0.7;
+  font-size: 15px;
+}
+
+.title a:hover {
+  color: #8e6cc2;
+}
+
+.caption p {
+  font-size: 14px;
+  margin-top: 0px;
+  text-align: justify;
+}
+
+.btn-more-courses {
+  float: left;
+  margin-top: 20px;
+}
+
+#img1 {
+  background-image: url("../img/1089.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+#img2 {
+  background-image: url("../img/9999.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+#img3 {
+  background-image: url("../img/tamir.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 550px;
+  background-attachment: fixed;
+}
+
+.text-info-img {
+  margin-top: 201px;
+  padding: 1px;
+}
+
+.text-info-img h2,
+h3 {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.img-info-grapi {
+  padding: 20px;
+  /*border-radius: 15px;*/
+}
+/*//// footer*/
+.ul-footer {
+  list-style-type: none;
+}
+
+.text-footer {
+  line-height: 40px;
+}
+
+.size {
+  font-size: 17px;
+}
+
+.footer2 {
+  background-color: #1abc9c;
+  padding: 20px;
+}
+
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: all 0.4s;
+}
+
+.active,
+.accordion:hover {
+  background-color: #ccc;
+}
+
+.panel {
+  padding: 0 18px;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+.img-brands {
+  box-shadow: 0px 0px 10px 0px black;
+  border-radius: 1rem;
+  width: 50%;
+  height: 200px;
+}
+.btn-s {
+  width: 90px;
+  height: 60px;
+  font-size: 14px;
+}
+#ostan {
+  display: none;
+}
+.justi {
+  text-align: justify;
+}
+
+.size-img-city {
+  width: 100%;
+  height: 400px;
+}
+
+.box-content-cities {
+  border: 1px solid rgb(208, 191, 191);
+  box-shadow: 0 0 10px #000;
+}
+p {
+  text-align: justify;
+}
+.content-cities {
+  background-image: url("../img/87.jpg");
+  background-size: 100% 100%;
+  height: 400px;
+}
+.box-city {
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.body {
+  margin: 0;
+  padding: 0;
+  padding: 30px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: inline;
+  margin-right: -80;
+}
+
+.search-container {
+  background: rgb(255, 250, 250);
+  height: 50px;
+  border-radius: 30px;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.8s;
+  box-shadow: 4px 4px 6px 0 rgba(255, 255, 255, 0.3),
+    -4px -4px 6px 0 rgba(116, 125, 136, 0.2),
+    inset -4px -4px 6px 0 rgba(255, 255, 255, 0.2),
+    inset 4px 4px 6px 0 rgba(0, 0, 0, 0.2);
+  width: 400px;
+}
+
+.search-btn {
+  background-color: white;
+  outline: none;
+  border-radius: 50%;
+  padding: 8px;
+}
+
+.seraches {
+  margin-top: 30px;
+}
+
+.logo-header {
+  margin-top: -0.5rem !important;
+}
+
+.search-container .search-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  width: 650px;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.8s;
+}
+
+.search-container {
+  width: 650px;
+}
+
+.search-container .search-btn .fas {
+  color: #5cbdbb;
+}
+
+.justi {
+  text-align: justify;
+}
+
+.size-img-city {
+  width: 100%;
+  height: 400px;
+}
+
+.box-content-cities {
+  border: 1px solid rgb(208, 191, 191);
+  box-shadow: 0 0 10px #000;
+}
+
+@keyframes hoverShake {
+  0% {
+    transform: skew(0deg, 0deg);
+  }
+  25% {
+    transform: skew(5deg, 5deg);
+  }
+  75% {
+    transform: skew(-5deg, -5deg);
+  }
+  100% {
+    transform: skew(0deg, 0deg);
+  }
+}
+
+p {
+  text-align: justify;
+}
+
+.search-container:hover {
+  animation: hoverShake 0.15s linear 3;
+}
+.search-modal {
+  border-radius: 20px;
+  margin-top: -31px;
+}
+.footer-background {
+  background-image: url("../img/footer.jpg");
+  padding: 20px;
+}
